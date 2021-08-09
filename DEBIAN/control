@@ -1,0 +1,16 @@
+Package: kz
+Version: 365
+Architecture: all
+Maintainer: Karel Zimmer <info@karelzimmer.nl>
+Installed-Size: 9232
+Depends: apt-show-versions, bash (>= 3.0), cifs-utils, laptop-detect, pv, samba, snapd, wget, zenity
+Replaces: scripts, kzscripts (<< 365), kzscripts (>> 365), kz (<< 365), kz (>> 365)
+Section: misc
+Priority: optional
+Homepage: http://karelzimmer.nl
+Description: Scripts en documenten van Karel Zimmer.
+ Pakket kz installeert scripts en documenten voor het afronden van de installatie van Ubuntu en Debian Linux.
+ .
+ Volg na installatie van dit pakket de stappen zoals beschreven in Checklist installatie.
+ .
+ Deze Checklist is te vinden op de site https://karelzimmer.nl onder Linux, en in /usr/share/doc/kz-scripts/.

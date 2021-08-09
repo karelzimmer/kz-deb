@@ -1,0 +1,7 @@
+#!/bin/bash
+
+if [[ $1 = 'purge' ]]; then
+    rm --force /usr/local/etc/kz*
+fi
+
+true

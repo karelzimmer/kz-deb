@@ -1,0 +1,32 @@
+#!/bin/bash
+
+# Oude bestanden.
+rm  --force                     \
+    /etc/kzbackup-*             \
+    /etc/kzlsinstalled-*        \
+    /etc/kznaslogin             \
+    /etc/kzrestore-*            \
+    /home/karel/kzdeploy.diff   \
+    /home/karel/kzdeploy.rpt    \
+    /home/*/.kzdeploy*          \
+    /home/*/.lsinstal*          \
+    /root/.backup-exclude-*     \
+    /root/.kzbackup-*           \
+    /root/kzlsinstalled-*       \
+    /root/.kznaslogin           \
+    /root/.kzrestore-*          \
+    /root/.lsinstal*            \
+    /root/.restore-exclude-*
+
+# Oude mappen.
+rm  --force                                 \
+    --recursive                             \
+    /home/karel/Documenten/Checklists       \
+    /home/karel/Documenten/Checklists.arch  \
+    /home/karel/kzscripts                   \
+    /home/karel/kzscripts.arch              \
+    /home/karel/kzscripts.deb               \
+    /home/karel/kzscripts.deb.arch          \
+    /home/karel/uploads.old
+
+true
