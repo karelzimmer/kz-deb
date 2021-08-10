@@ -16,7 +16,8 @@ rm  --force                     \
     /root/.kznaslogin           \
     /root/.kzrestore-*          \
     /root/.lsinstal*            \
-    /root/.restore-exclude-*
+    /root/.restore-exclude-*    \
+    /usr/local/etc/kz-*
 
 # Oude mappen.
 rm  --force                                 \
