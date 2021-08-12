@@ -4,7 +4,7 @@ Architecture: all
 Maintainer: Karel Zimmer <info@karelzimmer.nl>
 Installed-Size: 9232
 Depends: apt-show-versions, bash (>= 3.0), cifs-utils, laptop-detect, pv, samba, snapd, wget, zenity
-Replaces: scripts, kzscripts (<< 365), kzscripts (>> 365), kz (<< 365), kz (>> 365)
+Replaces: scripts, kzscripts, kz (<< 365), kz (>> 365)
 Section: misc
 Priority: optional
 Homepage: http://karelzimmer.nl
