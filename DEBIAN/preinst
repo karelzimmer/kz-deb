@@ -1,23 +1,26 @@
 #!/bin/bash
 
 # Oude bestanden.
-rm  --force                     \
-    /etc/kzbackup-*             \
-    /etc/kzlsinstalled-*        \
-    /etc/kznaslogin             \
-    /etc/kzrestore-*            \
-    /home/karel/kzdeploy.diff   \
-    /home/karel/kzdeploy.rpt    \
-    /home/*/.kzdeploy*          \
-    /home/*/.lsinstal*          \
-    /root/.backup-exclude-*     \
-    /root/.kzbackup-*           \
-    /root/kzlsinstalled-*       \
-    /root/.kznaslogin           \
-    /root/.kzrestore-*          \
-    /root/.lsinstal*            \
-    /root/.restore-exclude-*    \
-    /usr/local/etc/kz-*
+rm  --force                         \
+    /etc/kzbackup-*                 \
+    /etc/kzlsinstalled-*            \
+    /etc/kznaslogin                 \
+    /etc/kzrestore-*                \
+    /home/karel/kzdeploy.diff       \
+    /home/karel/kzdeploy.rpt        \
+    /home/*/.kzdeploy*              \
+    /home/*/.lsinstal*              \
+    /root/.backup-exclude-*         \
+    /root/.kzbackup-*               \
+    /root/kzlsinstalled-*           \
+    /root/.kznaslogin               \
+    /root/.kzrestore-*              \
+    /root/.lsinstal*                \
+    /root/.restore-exclude-*        \
+    /usr/local/etc/kz-*             \
+    /usr/local/etc/kzbackup-*       \
+    /usr/local/etc/kz_lsinstalled-* \
+    /usr/local/etc/kzrestore-*
 
 # Oude mappen.
 rm  --force                                 \
