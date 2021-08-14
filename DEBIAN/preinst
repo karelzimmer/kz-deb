@@ -1,26 +1,29 @@
 #!/bin/bash
 
 # Oude bestanden.
-rm  --force                         \
-    /etc/kzbackup-*                 \
-    /etc/kzlsinstalled-*            \
-    /etc/kznaslogin                 \
-    /etc/kzrestore-*                \
-    /home/karel/kzdeploy.diff       \
-    /home/karel/kzdeploy.rpt        \
-    /home/*/.kzdeploy*              \
-    /home/*/.lsinstal*              \
-    /root/.backup-exclude-*         \
-    /root/.kzbackup-*               \
-    /root/kzlsinstalled-*           \
-    /root/.kznaslogin               \
-    /root/.kzrestore-*              \
-    /root/.lsinstal*                \
-    /root/.restore-exclude-*        \
-    /usr/local/etc/kz-*             \
-    /usr/local/etc/kzbackup-*       \
-    /usr/local/etc/kz_lsinstalled-* \
-    /usr/local/etc/kzrestore-*
+rm  --force                                 \
+    /etc/kzbackup-*                         \
+    /etc/kzlsinstalled-*                    \
+    /etc/kznaslogin                         \
+    /etc/kzrestore-*                        \
+    /home/karel/kzdeploy.diff               \
+    /home/karel/kzdeploy.rpt                \
+    /home/*/.kzdeploy*                      \
+    /home/*/.lastrun-*                      \
+    /home/*/.lsinstal*                      \
+    /home/*/lsinstalled*                    \
+    /root/.backup-exclude-*                 \
+    /root/.kzbackup-*                       \
+    /root/kzlsinstalled-*                   \
+    /root/.kznaslogin                       \
+    /root/.kzrestore-*                      \
+    /root/.lsinstal*                        \
+    /root/.restore-exclude-*                \
+    /usr/local/etc/kz-*                     \
+    /usr/local/etc/kzbackup-*               \
+    /usr/local/etc/kz_lsinstalled-*         \
+    /usr/local/etc/kzrestore-*              \
+    /usr/local/etc/*lsinstalled*_favorieten
 
 # Oude mappen.
 rm  --force                                 \
@@ -31,6 +34,8 @@ rm  --force                                 \
     /home/karel/kzscripts.arch              \
     /home/karel/kzscripts.deb               \
     /home/karel/kzscripts.deb.arch          \
-    /home/karel/uploads.old
+    /home/karel/uploads.old                 \
+    /home/*/log/scripts                     \
+    /opt/wallpapers
 
 true
