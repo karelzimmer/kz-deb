@@ -21,9 +21,14 @@ rm  --force                                 \
     /root/.restore-exclude-*                \
     /usr/local/etc/kz-*                     \
     /usr/local/etc/kzbackup-*               \
+    /usr/local/etc/kz_*_deb-bestanden       \
+    /usr/local/etc/kz_*_favorieten          \
     /usr/local/etc/kz_lsinstalled-*         \
+    /usr/local/etc/kz_*_pakketbronnen       \
+    /usr/local/etc/kz_*_pakketten           \
     /usr/local/etc/kzrestore-*              \
-    /usr/local/etc/*lsinstalled*_favorieten
+    /usr/local/etc/kz_*_snaps
+
 
 # Oude mappen.
 rm  --force                                 \
