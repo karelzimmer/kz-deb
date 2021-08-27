@@ -3,7 +3,7 @@ Version: 365
 Architecture: all
 Maintainer: Karel Zimmer <info@karelzimmer.nl>
 Installed-Size: 9232
-Depends: aptitude, apt-show-versions, bash (>= 3.0), cifs-utils, laptop-detect, pv, samba, snapd, wget, zenity
+Depends: aptitude, apt-show-versions, bash (>= 3.0), cifs-utils, pv, samba, snapd, wget, zenity
 Provides: kz
 Conflicts: scripts, kzscripts, kz (<< 365), kz (>> 365)
 Replaces: scripts, kzscripts, kz (<< 365), kz (>> 365)
