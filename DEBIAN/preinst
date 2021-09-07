@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # Oude bestanden.
-rm  --force                         \
-    /root/kzlsinstalled-*           \
-    /usr/local/etc/kzbackup*        \
-    /usr/local/etc/kz_lsinstalled*  \
+rm  --force                     \
+    /root/kzlsinstalled-*       \
+    /usr/local/etc/kz_*         \
+    /usr/local/etc/kzbackup*    \
     /usr/local/etc/kzrestore*
 
 # Oude mappen.

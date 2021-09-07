@@ -1,4 +1,4 @@
-# kz_deb
+# kz-deb
 Debian pakket geraamte.
 
 Pakket kz, genoemd naar de maker Karel Zimmer, installeert scripts en documenten voor het afronden en beheren van de installatie van Ubuntu en Debian Linux.
