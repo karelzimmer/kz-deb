@@ -1,12 +1,11 @@
 # kz-deb
-Debian pakket geraamte.
+Geraamte voor Debian pakket kz, genoemd naar de maker Karel Zimmer.
+Pakket kz installeert scripts en documenten voor het installeren en onderhouden van Ubuntu en Debian Linux.
 
-Pakket kz, genoemd naar de maker Karel Zimmer, installeert scripts en documenten voor het afronden en beheren van de installatie van Ubuntu en Debian Linux.
+Dit geraamte zal gevuld worden met bestanden uit kz-docs en kz-scripts tijdens het genereren van pakket kz door kz-deploy.
 
-Dit pakket geraamte zal gevuld worden met bestanden uit kz\_docs en kz\_scripts tijdens het genereren van pakket kz.
 
-Debian package skeleton.
+Skeleton for Debian package kz, named after the creator Karel Zimmer.
+Package kz installs scripts and documents for installing and maintaining Ubuntu and Debian Linux.
 
-Package kz, named after the creator Karel Zimmer, installs scripts and documents for installing and maintaining Ubuntu and Debian Linux.
-
-This package skeleton will be populated with files from kz\_docs and kz\_scripts during generation of the package.
+This package skeleton will be populated with files from kz-docs and kz-scripts during generation of the package by kz-deploy.
