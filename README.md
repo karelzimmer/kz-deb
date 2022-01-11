@@ -10,7 +10,7 @@ More info at https://karelzimmer.nl (Dutch).
 
 ---
 Basis-bestanden voor Debian-pakket kz.\
-Deze basis-bestanden zullen worden aangevuld met bestanden uit Git repositories
+Deze basis-bestanden zullen worden aangevuld met bestanden uit Git-repositories
 kz-docs en kz-scripts tijdens het genereren van pakket kz door script kz-build.
 
 Debian-pakket kz, genoemd naar de maker Karel Zimmer, installeert documenten en
