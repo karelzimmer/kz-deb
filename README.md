@@ -4,7 +4,7 @@ These base-files will be completed with files from Git repositories kz-docs and
 kz-scripts during generation of package kz by script kz-build.
 
 Debian-package kz, named after the creator Karel Zimmer, installs documents and
-scripts for installing and maintaining Ubuntu or Debian Linux.
+scripts for installing and maintaining Ubuntu Linux.
 
 More info at https://karelzimmer.nl (Dutch).
 
@@ -14,6 +14,6 @@ Deze basis-bestanden zullen worden aangevuld met bestanden uit Git-repositories
 kz-docs en kz-scripts tijdens het genereren van pakket kz door script kz-build.
 
 Debian-pakket kz, genoemd naar de maker Karel Zimmer, installeert documenten en
-scripts voor het installeren en onderhouden van Ubuntu of Debian Linux.
+scripts voor het installeren en onderhouden van Ubuntu Linux.
 
 Meer informatie op https://karelzimmer.nl.
