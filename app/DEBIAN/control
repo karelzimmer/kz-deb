@@ -12,7 +12,7 @@ Priority: optional
 Homepage: http://karelzimmer.nl
 Description: Scripts en documenten van Karel Zimmer.
  Pakket kz, genoemd naar de maker Karel Zimmer, installeert scripts en documenten
- voor het installeren en onderhouden van de installatie van Ubuntu Linux.
+ voor het installeren en onderhouden van de installatie van Ubuntu en Debian GNU/Linux.
  .
  Volg na installatie van dit pakket de stappen zoals beschreven in de
  Checklist installatie.
