@@ -1,4 +1,4 @@
-kz-scripts
+kz-deb
 ===
 
 EN
