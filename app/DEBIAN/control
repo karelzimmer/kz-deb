@@ -3,7 +3,7 @@ Version: 365
 Architecture: all
 Maintainer: Karel Zimmer <info@karelzimmer.nl>
 Installed-Size: 9232
-Depends: aptitude, bash (>= 3.0), pv, rsync, snapd, wget, zenity
+Depends: pv, rsync, snapd, zenity
 Provides: kz
 Conflicts: scripts, kzscripts, kz (<< 365), kz (>> 365)
 Replaces: scripts, kzscripts, kz (<< 365), kz (>> 365)
