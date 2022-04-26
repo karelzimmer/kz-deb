@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# Voor Debain.
+snap install core
+systemctl enable --now snapd.socket
+systemctl restart snapd.seeded.service
+
+true
