@@ -1,8 +1,9 @@
 #!/bin/bash
 
-# Voor Debain.
-snap install core
-systemctl enable --now snapd.socket
-systemctl restart snapd.seeded.service
+if [[ $(lsb_release --id --short) = Debian ]]; then
+    snap install core
+    systemctl enable --now snapd.socket
+    systemctl restart snapd.seeded.service
+fi
 
 true
