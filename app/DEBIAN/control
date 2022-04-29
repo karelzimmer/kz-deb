@@ -5,6 +5,8 @@ Maintainer: Karel Zimmer <info@karelzimmer.nl>
 Installed-Size: 9232
 Depends: rsync, snapd, spice-vdagent, zenity
 Provides: kz
+Conflicts: scripts, kzscripts, kz (<< 365), kz (>> 365)
+Replaces: scripts, kzscripts, kz (<< 365), kz (>> 365)
 Section: misc
 Priority: optional
 Homepage: http://karelzimmer.nl
