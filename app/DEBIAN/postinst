@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# Previous locations.
+rm --force --recursive /home/*/Documents/kz
+rm --force --recursive /home/*/Documenten/kz
+
 if [[ $(lsb_release --id --short) = Debian ]]; then
     snap install core
     systemctl enable --now snapd.socket

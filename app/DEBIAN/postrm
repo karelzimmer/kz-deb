@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# Previous locations.
+rm --force --recursive /home/*/Documents/kz
+rm --force --recursive /home/*/Documenten/kz
+
+# Clean-up.
+rm --force --recursive /home/*/kz
+
+true
