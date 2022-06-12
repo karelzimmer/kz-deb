@@ -1,6 +1,6 @@
 #!/bin/bash
 
 # Clean-up.
-rm --force --recursive /home/*/kz
+rm --force --recursive /home/*/kz-data
 
 true
