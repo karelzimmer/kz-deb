@@ -1,9 +1,10 @@
 #!/bin/bash
 
-if [[ $(lsb_release --id --short) = Debian ]]; then
-    snap install core
+if ! snap list core &> /dev/null; then
+    # Needed for e.g. Debian.
     systemctl enable --now snapd.socket
     systemctl restart snapd.seeded.service
+    snap install core
 fi
 
 true
