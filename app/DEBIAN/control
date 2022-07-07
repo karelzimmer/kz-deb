@@ -11,9 +11,16 @@ Section: misc
 Priority: optional
 Homepage: https://karelzimmer.nl
 Description: Scripts en documenten van Karel Zimmer.
- Pakket kz, genoemd naar de maker Karel Zimmer, installeert scripts en documenten
+ Pakket kz, genoemd naar de maker Karel Zimmer, installeert checklists en scripts
  voor het installeren en onderhouden van de installatie van Ubuntu en Debian GNU/Linux.
  .
+ Pakket kz geeft met checklists en scripts voor een groot deel invulling aan
+ Infrastructuur als Code (IaC) of programmeerbare infrastructuur; het definiëren
+ en beheren van infrastructuur door middel van code, code vastgelegd in een
+ repository zoals GitHub.
+ Zo min mogelijk handmatige handelingen via gestructureerde checklist, installeren en
+ instellen verloopt automatisch, betrouwbaar, en herhaalbaar via scripting.
+.
  Volg na installatie van dit pakket de stappen zoals beschreven in de
  Checklist installatie.
  .
