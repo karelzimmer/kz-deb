@@ -14,14 +14,6 @@ Description: Documenten en scripts van Karel Zimmer.
  Pakket kz plaatst documenten en scripts van Karel Zimmer voor het installeren en
  beheren van Debian en op Debian gebaseerd systeem zoals Ubuntu.
  .
- Pakket kz geeft met zijn checklists en scripts voor een groot deel invulling aan
- Infrastructuur als Code (IaC) of programmeerbare infrastructuur; het definiëren
- en beheren van infrastructuur door middel van code, code vastgelegd in een
- repository zoals GitHub.
- Zo min mogelijk handmatige handelingen via een gestructureerde checklist,
- installeren en instellen verloopt automatisch, betrouwbaar, en herhaalbaar via
- scripts.
- .
  Volg na installatie van dit pakket de stappen zoals beschreven in de
  Checklist installatie.
  .
