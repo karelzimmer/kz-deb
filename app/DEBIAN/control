@@ -5,14 +5,12 @@ Maintainer: Karel Zimmer <info@karelzimmer.nl>
 Installed-Size: 9232
 Depends: rsync, snapd, zenity
 Provides: kz
-Conflicts: scripts, kzscripts, kz (<< 365), kz (>> 365)
-Replaces: scripts, kzscripts, kz (<< 365), kz (>> 365)
 Section: misc
 Priority: optional
 Homepage: https://karelzimmer.nl
 Description: Documenten en scripts van Karel Zimmer.
- Pakket kz plaatst documenten en scripts van Karel Zimmer voor het installeren en
- beheren van Debian en op Debian gebaseerd systeem zoals Ubuntu.
+ Pakket kz plaatst documenten en scripts van Karel Zimmer voor het installeren
+ en beheren van Debian en op Debian gebaseerd systeem zoals Ubuntu.
  .
  Volg na installatie van dit pakket de stappen zoals beschreven in de
  Checklist installatie.
