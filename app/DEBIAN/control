@@ -4,7 +4,6 @@ Architecture: all
 Maintainer: Karel Zimmer <info@karelzimmer.nl>
 Installed-Size: 9232
 Depends: rsync, snapd, zenity
-Provides: kz
 Section: misc
 Priority: optional
 Homepage: https://karelzimmer.nl
