@@ -1,11 +1,9 @@
 # kz-deb
 
-Basis-bestanden voor Debian-pakket *kz*.
-Deze basis-bestanden zullen worden aangevuld met bestanden uit Git-repositories
-*kz-docs* en *kz-scripts* tijdens het genereren van pakket *kz* door script
-`kz build`.
+Base files for Debian package *kz*.
 
-Debian-pakket *kz* plaatst documenten en scripts van Karel Zimmer voor het
-installeren en beheren van Debian en op Debian gebaseerd systeem zoals Ubuntu.
+These base files will be supplemented with files from Git repositories *kz-docs* and *kz-scripts* during the generation of package [karelzimmer.nl](https://karelzimmer.nl) by script `kz build`.
 
-Meer informatie op [karelzimmer.nl](https://karelzimmer.nl).
+Site [karelzimmer.nl](https://karelzimmer.nl) provides links to documents and scripts for installing and managing Debian and Debian based systems like Ubuntu.
+
+More information on [karelzimmer.nl](https://karelzimmer.nl).
