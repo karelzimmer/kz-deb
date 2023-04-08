@@ -4,12 +4,11 @@ Architecture: all
 Maintainer: Karel Zimmer <info@karelzimmer.nl>
 Depends: rsync, snapd, zenity
 Homepage: https://karelzimmer.nl
-Description: Documenten en scripts van Karel Zimmer.
- Pakket kz plaatst documenten en scripts van Karel Zimmer voor het installeren
- en beheren van Debian en op Debian gebaseerd systeem zoals Ubuntu.
+Description: Documents and scripts from Karel Zimmer.
+ Package kz places documents and scripts from Karel Zimmer for installing and
+ managing Debian and Debian based systems like Ubuntu.
  .
- Volg na installatie van dit pakket de stappen zoals beschreven in de
- Checklist installatie.
+ Follow the steps as described in the Checklist installation.
  .
- Checklist installatie is te vinden op de site https://karelzimmer.nl, onder
- Linux.
+ Checklist installation can be found on the site https://karelzimmer.nl,
+ under Linux.
