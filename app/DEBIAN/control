@@ -2,7 +2,7 @@ Package: kz
 Version: 365
 Architecture: all
 Maintainer: Karel Zimmer <info@karelzimmer.nl>
-Depends: rsync, snapd, zenity
+Depends: dbus-x11, rsync, snapd, zenity
 Homepage: https://karelzimmer.nl
 Description: Documents and scripts from Karel Zimmer.
  Package kz places documents and scripts from Karel Zimmer for installing and
