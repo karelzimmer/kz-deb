@@ -1,7 +1,7 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: kz
 Upstream-Contact: info@karelzimmer.nl
-Source: https://karelzimmer.nl/html/linux.html
+Source: https://karelzimmer.nl/html/en/linux.html
 
 Files: *
 Copyright: None
