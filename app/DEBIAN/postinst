@@ -1,5 +1,10 @@
 #!/bin/bash
 
+# Install only on desktop editions.
+if [[ -n $XDG_CURRENT_DESKTOP ]]; then
+    apt-get install --yes zenity
+fi
+
 if ! snap list core &> /dev/null; then
     # Needed for e.g. Debian.
     systemctl enable --now snapd.socket
