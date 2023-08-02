@@ -2,6 +2,7 @@
 
 # GUI only on desktop editions.
 if [[ -n $XDG_CURRENT_DESKTOP ]]; then
+    apt-get install --yes dbus-x11
     apt-get install --yes zenity
 fi
 
