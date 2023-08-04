@@ -6,7 +6,7 @@ if [[ -n $XDG_CURRENT_DESKTOP ]]; then
     apt-get install --yes dbus-x11 zenity
 fi
 
-if ! type fuser; then
+if ! type fuser &> /dev/null; then
     apt-get install --yes psmisc
 fi
 
