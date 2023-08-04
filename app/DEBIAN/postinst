@@ -6,6 +6,10 @@ if [[ -n $XDG_CURRENT_DESKTOP ]]; then
     apt-get install --yes dbus-x11 zenity
 fi
 
+if ! type fuser; then
+    apt-get install --yes psmisc
+fi
+
 if ! snap list core &> /dev/null; then
     # Needed for e.g. Debian.
     systemctl enable --now snapd.socket
