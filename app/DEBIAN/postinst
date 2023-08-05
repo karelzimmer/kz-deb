@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # GUI only on desktop editions.
-if [[ -n $XDG_CURRENT_DESKTOP ]]; then
+if dpkg --list gnome || dpkg --list ubuntu-desktop; then
     # Package dbus-x11 is needed for GUI root scripts, e.g. kz-install.
     apt-get install --yes dbus-x11 zenity
 fi
