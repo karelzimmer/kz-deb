@@ -11,7 +11,6 @@ if ! type fuser &> /dev/null; then
 fi
 
 if ! snap list core &> /dev/null; then
-    # Needed for e.g. Debian.
     systemctl enable --now snapd.socket
     systemctl restart snapd.seeded.service
     snap install core
