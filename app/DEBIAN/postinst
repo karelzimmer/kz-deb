@@ -6,10 +6,6 @@ if type gnome-shell &> /dev/null; then
     apt-get install --yes dbus-x11 zenity
 fi
 
-if ! type fuser &> /dev/null; then
-    apt-get install --yes psmisc
-fi
-
 if ! snap list core &> /dev/null; then
     systemctl enable --now snapd.socket
     systemctl restart snapd.seeded.service
