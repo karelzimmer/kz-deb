@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/bash
 
 # GUI only on desktop.
 if type gnome-shell &> /dev/null; then
