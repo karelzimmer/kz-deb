@@ -1,4 +1,4 @@
-Package kz provides scripts for installing and managing Debian and Debian based
+Package kz places scripts for installing and managing Debian and Debian based
 systems like Ubuntu.
 
 Follow the steps as described in the Checklist installation.
