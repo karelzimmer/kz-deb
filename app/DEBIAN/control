@@ -4,11 +4,12 @@ Architecture: all
 Maintainer: Karel Zimmer <info@karelzimmer.nl>
 Depends: psmisc, python3-systemd, rsync, snapd
 Homepage: https://karelzimmer.nl
-Description: Documents and scripts from Karel Zimmer.
- Package kz places documents and scripts from Karel Zimmer for installing and
- managing Debian and Debian based systems like Ubuntu.
+Description: Install and manage Debian and Debian based systems like Ubuntu.
+ App scripts to install Debian or Ubuntu smoothly and usably.
  .
  Follow the steps as described in the Checklist installation.
  .
  Checklist installation can be found on the site https://karelzimmer.nl,
  under Linux.
+ .
+ This package contains app scripts.
