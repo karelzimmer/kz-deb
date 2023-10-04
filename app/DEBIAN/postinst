@@ -13,4 +13,4 @@ if ! snap list core &> /dev/null; then
     snap install core
 fi
 
-true
+exit 0
