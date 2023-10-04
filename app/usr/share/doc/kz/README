@@ -1,6 +1,7 @@
-Install and manage Debian and Debian based systems like Ubuntu.
+This package 'kz' contains scripts to install Debian or Ubuntu smoothly and usably.
 
-Follow the steps as described in the Checklist installation.
-
+For how to use this package see Checklist installation.
 Checklist installation can be found on the site https://karelzimmer.nl,
 under Linux.
+
+Package kz is named after its creator, Karel Zimmer.
