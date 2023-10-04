@@ -13,3 +13,13 @@ Description: installation scripts for Debian and Debian-based systems such as Ub
  under Linux.
  .
  Package kz is named after its creator, Karel Zimmer.
+ .
+ Description-nl: installatie-scripts voor Debian en op Debian gebaseerde systemen zoals Ubuntu
+  Dit pakket bevat scripts om Debian of Ubuntu vlot en bruikbaar te installeren.
+  .
+  Volg de stappen zoals beschreven in de Checklist installatie.
+  .
+  Checklist installatie is te vinden op de site https://karelzimmer.nl,
+  onder Linux.
+  .
+  Pakket kz is genoemd naar zijn maker, Karel Zimmer.
