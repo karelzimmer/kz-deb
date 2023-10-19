@@ -2,8 +2,7 @@
 
 Base-files for Debian package *kz*, named after its creator Karel Zimmer.
 
-Package kz contains scripts to install Debian and Debian-based systems such as
-Ubuntu smoothly and usably.
+Package kz contains scripts for installing and managing Debian and Debian-based systems such as Ubuntu.
 
 These base-files will be supplemented with files from Git repositories *kz-docs* and *kz-scripts* during the generation of package kz by script `kz build`.
 

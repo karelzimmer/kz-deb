@@ -6,9 +6,9 @@ Depends: psmisc, python3-systemd, rsync, snapd
 Homepage: https://karelzimmer.nl
 Description: ...
  .
- Description-en: installation scripts for Debian and Debian-based systems
-  This package contains scripts to install Debian and Debian-based systems
-  such as Ubuntu smoothly and usably.
+ Description-en: installation and management scripts by Karel Zimmer
+  Package kz contains scripts for installing and managing Debian and
+  Debian-based systems such as Ubuntu.
   .
   For how to use this package see Checklist installation.
   Checklist installation can be found on the site https://karelzimmer.nl,
@@ -16,9 +16,9 @@ Description: ...
   .
   Package kz is named after its creator, Karel Zimmer.
  .
- Description-nl: installatie-scripts voor Debian en op Debian gebaseerde systemen
-  Dit pakket bevat scripts om Debian en op Debian gebaseerde systemen zoals
-  Ubuntu vlot en bruikbaar te installeren.
+ Description-nl: installatie- en beheerscripts van Karel Zimmer
+  Pakket kz bevat scripts voor het installeren en beheren van Debian en op
+  Debian gebaseerde systemen zoals Ubuntu.
   .
   Voor het gebruik van dit pakket zie Checklist installatie.
   Checklist installatie is te vinden op de site https://karelzimmer.nl,
