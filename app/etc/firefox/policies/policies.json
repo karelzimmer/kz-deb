@@ -1,1 +1,5 @@
-{"policies":{"PasswordManagerEnabled":false}}
+{
+  "policies": {
+    "PasswordManagerEnabled": false
+  }
+}
