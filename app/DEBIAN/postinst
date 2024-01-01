@@ -2,8 +2,7 @@
 
 # GUI only on desktop.
 if type gnome-shell &> /dev/null; then
-    # Package dbus-x11 is needed for GUI root scripts like kz-install.
-    apt-get install --yes dbus-x11 zenity
+    apt-get install --yes zenity
 fi
 
 # Snap install mainly for Debian.
