@@ -1,10 +1,5 @@
 #!/usr/bin/bash
 
-# GUI only on desktop editions.
-if type gnome-shell &> /dev/null; then
-    apt install --yes zenity
-fi
-
 # Snap install mainly for Debian.
 if ! snap list core &> /dev/null; then
     systemctl enable --now snapd.socket
