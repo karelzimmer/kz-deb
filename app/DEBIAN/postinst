@@ -1,0 +1,10 @@
+#!/usr/bin/bash
+
+# Snaps are a dependency for running scripts in package kz.
+if ! snap list core &> /dev/null; then
+    systemctl enable --now snapd.socket
+    systemctl restart snapd.seeded.service
+    snap install core
+fi
+
+exit 0
