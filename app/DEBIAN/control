@@ -2,7 +2,6 @@ Package: kz
 Version: 2.4.7
 Architecture: all
 Depends: psmisc, python3-systemd, rsync, snapd, zenity
-Installed-size: 247
 Maintainer: Karel Zimmer <info@karelzimmer.nl>
 Homepage: https://karelzimmer.nl
 Description: ...
