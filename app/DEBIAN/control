@@ -1,5 +1,5 @@
 Package: kz
-Version: 2.4.7
+Version: 4.2.1
 Architecture: all
 Depends: psmisc, python3-systemd, rsync, snapd, zenity
 Maintainer: Karel Zimmer <info@karelzimmer.nl>
