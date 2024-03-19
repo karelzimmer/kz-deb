@@ -3,10 +3,8 @@ kz README
 
 What Is It ?
 ============
-Package kz contains scripts for installing and managing Debian and Debian-based
-systems such as Ubuntu.
-
-Package kz is named after its creator, Karel Zimmer.
+Package kz, named after its creator, Karel Zimmer, contains scripts for
+installing and managing Debian and Debian-based systems such as Ubuntu.
 
 How To Use
 ==========
