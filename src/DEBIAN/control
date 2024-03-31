@@ -4,7 +4,7 @@ Architecture: all
 Depends: psmisc, python3-systemd, rsync, snapd, zenity
 Maintainer: Karel Zimmer <info@karelzimmer.nl>
 Homepage: https://karelzimmer.nl
-Description: installation and management scripts by Karel Zimmer
+Description: Installation and management scripts by Karel Zimmer.
   Package kz contains scripts for installing and managing Debian and
   Debian-based systems such as Ubuntu.
   .
