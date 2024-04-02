@@ -1,3 +1,8 @@
+<!---
+# SPDX-FileCopyrightText: Karel Zimmer <info@karelzimmer.nl>
+# SPDX-License-Identifier: CC0-1.0
+--->
+
 # kz-deb
 
 Source files for Debian package *kz*, named after its creator Karel Zimmer.

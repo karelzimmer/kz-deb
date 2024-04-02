@@ -1,6 +1,11 @@
 #!/usr/bin/bash
 
-# Snap install mainly for Debian.
+###############################################################################
+# SPDX-FileCopyrightText: Karel Zimmer <info@karelzimmer.nl>
+# SPDX-License-Identifier: CC0-1.0
+###############################################################################
+
+# Snap installation is mainly done for Debian.
 if ! snap list core &> /dev/null; then
     systemctl enable --now snapd.socket
     systemctl restart snapd.seeded.service
