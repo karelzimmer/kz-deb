@@ -1,6 +1,6 @@
 <!--
 ###############################################################################
-# SPDX-FileComment: Readme for kz-deb
+# SPDX-FileComment: Readme for repo kz-deb
 #
 # SPDX-FileCopyrightText: Karel Zimmer <info@karelzimmer.nl>
 # SPDX-License-Identifier: CC0-1.0
