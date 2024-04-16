@@ -16,4 +16,4 @@ These source files will be supplemented with files from Git repository
 
 Package kz contains scripts for installing and managing Debian and Debian-based systems such as Ubuntu.
 
-More information on [karelzimmer.nl](https://karelzimmer.nl).
+More information on [karelzimmer.nl/en](https://karelzimmer.nl/en).
