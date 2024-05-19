@@ -3,7 +3,7 @@ SPDX-License-Identifier: CC0-1.0
 Package: kz
 Version: 4.2.1
 Architecture: all
-Depends: psmisc, python3-systemd, rsync, snapd, zenity
+Depends: psmisc, python3-systemd, rsync, snapd
 Maintainer: Karel Zimmer <info@karelzimmer.nl>
 Homepage: https://karelzimmer.nl
 Description: Installation and management scripts by Karel Zimmer.
