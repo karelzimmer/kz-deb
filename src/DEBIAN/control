@@ -7,12 +7,21 @@ Architecture: all
 Depends: psmisc, python3-systemd, rsync
 Maintainer: Karel Zimmer <info@karelzimmer.nl>
 Homepage: https://karelzimmer.nl
-Description: Installation and management scripts by Karel Zimmer.
+Description-en: Installation and management scripts by Karel Zimmer
   Package kz contains scripts for installing and managing Debian and
   Debian-based systems such as Ubuntu.
   .
   For how to use this package see Checklist installation.
-  Checklist installation can be found on the site https://karelzimmer.nl,
+  Checklist installation can be found on the site https://karelzimmer.nl/en,
   under Linux.
   .
   Package kz is named after its creator, Karel Zimmer.
+Description-nl: Installatie- en beheerscripts door Karel Zimmer
+  Pakket kz bevat scripts voor het installeren en beheren van Debian en
+  Debian-gebaseerde systemen zoals Ubuntu.
+  .
+  Zie Checklist installatie voor het gebruik van dit pakket.
+  Checklist installatie is te vinden op de site https://karelzimmer.nl,
+  onder Linux.
+  .
+  Pakket kz is vernoemd naar de maker, Karel Zimmer.
