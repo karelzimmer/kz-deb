@@ -1,13 +1,22 @@
 SPDX-FileComment: Control file for Debian package kz
 SPDX-FileCopyrightText: Karel Zimmer <info@karelzimmer.nl>
 SPDX-License-Identifier: CC0-1.0
+SPDX-Depends: Description of dependencies
+  The psmisc package contains utilities that use the proc file system, for
+  example fuser, to identify processes that use the apt and dpkg lock files.
+  .
+  Package python3-systemd provides Python wrappers for systemd to, for example,
+  log messages to the journal.
+  .
+  The rsync package provides for fast file copying, for example for backing up
+  data.
 Package: kz
 Version: 4.2.1
 Architecture: all
 Depends: psmisc, python3-systemd, rsync
 Maintainer: Karel Zimmer <info@karelzimmer.nl>
 Homepage: https://karelzimmer.nl
-Description-en: Installation and management scripts by Karel Zimmer
+Description: Installation and management scripts by Karel Zimmer
   Package kz contains scripts for installing and managing Debian and
   Debian-based systems such as Ubuntu.
   .
