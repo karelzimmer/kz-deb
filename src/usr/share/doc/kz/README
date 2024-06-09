@@ -1,3 +1,10 @@
+###############################################################################
+# SPDX-FileComment: README file for  Debian package kz
+#
+# SPDX-FileCopyrightText: Karel Zimmer <info@karelzimmer.nl>
+# SPDX-License-Identifier: CC0-1.0
+###############################################################################
+
 What Is It ?
 ============
 Package kz, named after its creator, Karel Zimmer, contains scripts for
@@ -8,6 +15,3 @@ How To Use
 For how to use this package see Checklist installation.
 Checklist installation can be found on the site https://karelzimmer.nl/en,
 under Linux.
-
-Wrtiiten by Karel Zimmer <info@karelzimmer.nl>.
-CC0 1.0 Universal <https://creativecommons.org/publicdomain/zero/1.0>.
