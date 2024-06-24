@@ -1,7 +1,7 @@
 Package: kz
 Version: 4.2.1
 Architecture: all
-Depends: pkexec, psmisc, python3-systemd, rsync
+Depends: psmisc, python3-systemd, rsync
 Maintainer: Karel Zimmer <info@karelzimmer.nl>
 Homepage: https://karelzimmer.nl/en
 Description: Installation and management scripts by Karel Zimmer
