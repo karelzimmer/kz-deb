@@ -3,6 +3,8 @@ Version: 4.2.1
 Architecture: all
 Depends: psmisc, python3-systemd, rsync
 Suggests: pkexec, zenity
+Section: utils
+Priority: optional
 Maintainer: Karel Zimmer <info@karelzimmer.nl>
 Homepage: https://karelzimmer.nl/en
 Description: Installation and management scripts by Karel Zimmer
