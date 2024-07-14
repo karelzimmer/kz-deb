@@ -6,6 +6,7 @@ Suggests: pkexec, zenity
 Section: utils
 Priority: optional
 Maintainer: Karel Zimmer <info@karelzimmer.nl>
+Installed-Size: 690
 Homepage: https://karelzimmer.nl/en
 Description: Installation and management scripts by Karel Zimmer
   Package kz contains scripts for installing and managing Debian and
