@@ -16,6 +16,7 @@ Description: Installation and management scripts by Karel Zimmer
   under Linux.
   Package kz is named after its creator, Karel Zimmer.
 Description-md5: 7c3dc54735c9edfb61e97f5617fa89c7
+Homepage-nl: https://karelzimmer.nl
 Description-nl: Installatie- en beheerscripts door Karel Zimmer
   Pakket kz bevat scripts voor het installeren en beheren van Debian en
   Debian-gebaseerde systemen zoals Ubuntu.
