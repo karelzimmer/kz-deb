@@ -1,5 +1,5 @@
 Package: kz
-Version: 4.2.1
+Version: 4.2.1-1
 Architecture: all
 Depends: psmisc, python3-systemd, rsync
 Suggests: pkexec, zenity
