@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+# This module provides global variables and functions.
+#
+# shellcheck shell=bash source=/dev/null
+###############################################################################
+# SPDX-FileComment: Post-install script for Debian package kz
+#
+# SPDX-FileCopyrightText: Karel Zimmer <info@karelzimmer.nl>
+# SPDX-License-Identifier: CC0-1.0
+###############################################################################
+
+  # Ubuntu 18.04: No such file or directory: '/usr/bin/bash' ==> symlink.
+  if [[ ! -e /usr/bin/bash ]]; then
+      sudo ln --symbolic /bin/bash /usr/bin/bash
+  fi
