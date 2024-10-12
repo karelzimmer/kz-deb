@@ -1,7 +1,4 @@
 #!/usr/bin/env bash
-# This module provides global variables and functions.
-#
-# shellcheck shell=bash source=/dev/null
 ###############################################################################
 # SPDX-FileComment: Post-install script for Debian package kz
 #
