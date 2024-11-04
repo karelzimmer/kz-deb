@@ -15,7 +15,7 @@ Description: Installation and management scripts by Karel Zimmer
   .
   Checklist installation can be found on the site https://karelzimmer.nl/en,
   under Linux.
-Description-md5: 7c3dc54735c9edfb61e97f5617fa89c7
+Description-md5: 514ce9213e75a8c62b57103569d0c924
 Homepage-nl: https://karelzimmer.nl
 Description-nl: Installatie- en beheerscripts door Karel Zimmer
   Pakket kz bevat scripts voor het installeren en beheren van Debian en
@@ -25,3 +25,4 @@ Description-nl: Installatie- en beheerscripts door Karel Zimmer
   .
   Checklist installatie is te vinden op de site https://karelzimmer.nl,
   onder Linux.
+Description-nl-md5: 0e4251720ebccb779aa8a528ae36c3bb
