@@ -8,6 +8,6 @@
 set -o errexit
 
 # For older distro like Ubuntu 18.04.
-[[ -f /usr/bin/bash ]] ||  sudo ln --symbolic /bin/bash /usr/bin/bash
+[[ -f /usr/bin/bash ]] || sudo ln --symbolic /bin/bash /usr/bin/bash
 
 exit 0
