@@ -1,7 +1,7 @@
 Package: kz
 Version: 4.2.1-1
 Architecture: all
-Depends: policykit-1 | polkitd, policykit-1 | pkexec, psmisc, python3-systemd, rsync
+Depends: policykit-1 | polkitd, policykit-1 | pkexec, psmisc, python3-systemd, rsync, zenity
 Section: utils
 Priority: optional
 Maintainer: Karel Zimmer <info@karelzimmer.nl>
