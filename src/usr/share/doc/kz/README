@@ -15,6 +15,7 @@ python3         - Interactive high-level object-oriented language
 python3-systemd - Use systemd.journal module for Python
 rsync           - File-copying tool to backup and restore files
 whiptail        - Display dialog boxes from shell scripts (TUI)
+zenity          - Display graphical dialog boxes from shell scripts (GUI)
 
 How To Use
 ==========
