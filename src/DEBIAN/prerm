@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# prerm script for kz
+
+set -e
+
+# -----------------------------------------------------------------------------
+# Remove components from package sources.
+# -----------------------------------------------------------------------------
+if [[ -f /etc/apt/sources.list ]]; then sudo sed --in-place --expression='s/contrib main non-free non-free-firmware/main non-free-firmware/' /etc/apt/sources.list; fi
+if [[ -f /etc/apt/debian.sources ]]; then sudo sed --in-place --expression='s/contrib main non-free non-free-firmware/main non-free-firmware/' /etc/apt/debian.sources; fi
+
+exit 0
