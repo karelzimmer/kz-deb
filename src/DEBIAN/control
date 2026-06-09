@@ -1,7 +1,7 @@
 Package: kz
 Version: 4.2.1-1
 Architecture: all
-Depends: dialog, pkexec, polkitd, psmisc, python3 (>= 3.9), rsync, zenity
+Depends: dialog, pkexec, polkitd, psmisc, python3 (>= 3.9), rsync, xdg-user-dirs, zenity
 Section: utils
 Priority: optional
 Maintainer: Karel Zimmer <info@karelzimmer.nl>

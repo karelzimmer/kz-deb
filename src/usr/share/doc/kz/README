@@ -5,13 +5,14 @@ installing and managing Debian and Debian-based systems such as Ubuntu.
 
 Also installs (dependencies)
 ============================
-dialog      - Display dialog boxes from shell scripts (TUI)
-pkexec      - Run commands as another user with polkit authorization
-polkitd     - Framework for managing administrative policies and privileges
-psmisc      - Identify processes using files with fuser
-python3     - Interactive high-level object-oriented language
-rsync       - File-copying tool to backup and restore files
-zenity      - Display graphical dialog boxes from shell scripts (GUI)
+dialog          - Display dialog boxes from shell scripts (TUI)
+pkexec          - Run commands as another user with polkit authorization
+polkitd         - Framework for managing administrative policies and privileges
+psmisc          - Identify processes using files with fuser
+python3         - Interactive high-level object-oriented language
+rsync           - File-copying tool to backup and restore files
+xdg-user-dirs   - Tool to manage well known user directories
+zenity          - Display graphical dialog boxes from shell scripts (GUI)
 
 How To Use
 ==========
