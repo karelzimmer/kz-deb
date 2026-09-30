@@ -6,6 +6,7 @@ Depends: dialog,
          polkitd,
          psmisc,
          python3 (>= 3.9),
+         python3-systemd,
          rsync,
          xdg-user-dirs,
          zenity
