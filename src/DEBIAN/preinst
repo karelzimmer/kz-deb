@@ -7,7 +7,7 @@ if grep --quiet --regexp='Debian' /etc/os-release; then
 
     # 1. Handle Legacy Format (/etc/apt/sources.list)
     if [[ -f /etc/apt/sources.list ]] && grep --quiet '\bmain non-free-firmware\b' /etc/apt/sources.list; then 
-        sed --in-place --expression='s/\bmain non-free-firmware\b/contrib main non-free non-free-firmware/' /etc/apt/sources.list
+        sed --in-place --expression='s/\bmain non-free-firmware\b/main contrib non-free non-free-firmware/' /etc/apt/sources.list
         CHANGED=true
     fi
     
