@@ -1,13 +1,26 @@
 #!/bin/bash
-
 # preinst script for kz
-
 set -e
 
-# -----------------------------------------------------------------------------
-# Add components to package sources if on Debian.
-# -----------------------------------------------------------------------------
-if grep --quiet --regexp='Debian' /etc/os-release && [[ -f /etc/apt/sources.list ]]; then sudo sed --in-place --expression='s/main non-free-firmware/contrib main non-free non-free-firmware/' /etc/apt/sources.list; fi
-if grep --quiet --regexp='Debian' /etc/os-release && [[ -f /etc/apt/debian.sources ]]; then sudo sed --in-place --expression='s/main non-free-firmware/contrib main non-free non-free-firmware/' /etc/apt/debian.sources; fi
+if grep --quiet --regexp='Debian' /etc/os-release; then
+    CHANGED=false
+
+    # 1. Handle Legacy Format (/etc/apt/sources.list)
+    if [[ -f /etc/apt/sources.list ]] && grep --quiet '\bmain non-free-firmware\b' /etc/apt/sources.list; then 
+        sed --in-place --expression='s/\bmain non-free-firmware\b/contrib main non-free non-free-firmware/' /etc/apt/sources.list
+        CHANGED=true
+    fi
+    
+    # 2. Handle Modern DEB822 Format (/etc/apt/sources.list.d/debian.sources)
+    if [[ -f /etc/apt/sources.list.d/debian.sources ]] && grep --quiet '^Components: main non-free-firmware' /etc/apt/sources.list.d/debian.sources; then 
+        sed --in-place --expression='s/^Components: main non-free-firmware/Components: main contrib non-free non-free-firmware/' /etc/apt/sources.list.d/debian.sources
+        CHANGED=true
+    fi
+
+    # Create a temporary flag for the postinst script if repositories were modified.
+    if $CHANGED; then
+        touch /tmp/kz-get-apt-run-update
+    fi
+fi
 
 exit 0

@@ -1,0 +1,29 @@
+#!/bin/bash
+# postrm script for kz
+set -e
+
+# Only execute when the user completely purges the package.
+if [ "$1" = "purge" ]; then
+    if grep --quiet --regexp='Debian' /etc/os-release; then
+        CHANGED=false
+
+        # 1. Restore Legacy Format (/etc/apt/sources.list)
+        if [[ -f /etc/apt/sources.list ]] && grep --quiet 'contrib main non-free non-free-firmware' /etc/apt/sources.list; then 
+            sed --in-place --expression='s/\bcontrib main non-free non-free-firmware\b/main non-free-firmware/' /etc/apt/sources.list
+            CHANGED=true
+        fi
+        
+        # 2. Restore Modern DEB822 Format (/etc/apt/sources.list.d/debian.sources)
+        if [[ -f /etc/apt/sources.list.d/debian.sources ]] && grep --quiet '^Components:.*contrib main non-free non-free-firmware' /etc/apt/sources.list.d/debian.sources; then 
+            sed --in-place --expression='s/Components: main contrib non-free non-free-firmware/Components: main non-free-firmware/' /etc/apt/sources.list.d/debian.sources
+            CHANGED=true
+        fi
+
+        # Immediately refresh package lists if configurations were rolled back.
+        if $CHANGED; then
+            apt-get update --assume-yes
+        fi
+    fi
+fi
+
+exit 0

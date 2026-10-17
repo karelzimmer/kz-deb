@@ -1,0 +1,14 @@
+#!/bin/bash
+# postinst script for kz
+set -e
+
+# Check if the preinst script flagged that the sources configuration was modified.
+if [ -f /tmp/kz-get-apt-run-update ]; then
+    # Run apt update quietly.
+    apt-get update --assume-yes
+    
+    # Clean up the temporary flag file.
+    rm -f /tmp/kz-get-apt-run-update
+fi
+
+exit 0
