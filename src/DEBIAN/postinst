@@ -8,7 +8,7 @@ if [ -f /tmp/kz-get-apt-run-update ]; then
     apt-get update --assume-yes
     
     # Clean up the temporary flag file.
-    rm -f /tmp/kz-get-apt-run-update
+    rm --force /tmp/kz-get-apt-run-update
 fi
 
 exit 0
